@@ -1,0 +1,51 @@
+const translations = {
+  en: {
+    topline:"Preparedness starts before the warning.",nav_prepare:"Preparedness",nav_radar:"Radar & Alerts",nav_help:"Emergency Help",nav_resources:"Resources",
+    eyebrow:"ODISHA CYCLONE READINESS PLATFORM",hero_title:"When the storm approaches,<br><em>knowledge saves lives.</em>",hero_text:"Understand cyclone risks, prepare your family, find trusted alerts and know what to do — before, during and after a cyclone.",hero_cta:"Explore safety guide",hero_secondary:"Emergency contacts",trust:"Built for communities across Odisha • English, Hindi & Odia",
+    quick1:"Prepare your family",quick1sub:"Simple readiness checklist",quick2:"Check official updates",quick2sub:"Weather and warning sources",quick3:"Need urgent help?",quick3sub:"Emergency number and guidance",
+    kicker1:"BEFORE THE CYCLONE",prep_title:"Prepared today. Safer tomorrow.",prep_intro:"A few practical steps can reduce risk. Follow local administration instructions and evacuate when authorities advise.",
+    card1title:"Secure your home",card1text:"Bring loose outdoor items inside. Keep doors and windows secured. Stay away from damaged electrical lines.",card2title:"Build an emergency kit",card2text:"Keep drinking water, dry food, medicines, a torch, batteries, first aid and copies of important documents.",card3title:"Plan your evacuation",card3text:"Know your nearest designated cyclone shelter and plan how your family will reach it safely.",tag_before:"BEFORE",tag_ready:"GET READY",tag_plan:"MAKE A PLAN",
+    kicker2:"WEATHER AWARENESS",radar_title:"Stay informed.<br><em>Act early.</em>",radar_text:"Use official meteorological updates for cyclone track, rainfall, wind and coastal warnings. This starter version links to trusted sources; live map integration is the next development step.",imd_button:"Open official IMD updates",official_sources:"OFFICIAL WEATHER SOURCES",external_link:"EXTERNAL LINK",radar_placeholder:"Live radar integration coming next",radar_note:"No live storm position is displayed in this demo.",
+    kicker3:"HELP WHEN IT MATTERS",help_title:"Emergency help, within reach.",help_intro:"If you are in immediate danger, move to a safer place if possible and contact the appropriate emergency service.",national_emergency:"INDIA • NATIONAL EMERGENCY",emergency_desc:"Call for emergency assistance. This is not a substitute for local evacuation orders.",call_now:"Call 112",verify_note:"Emergency contacts and services can vary by location. Verify local district contacts through official Odisha government sources.",
+    kicker4:"TRUSTED INFORMATION",resources_title:"Official resources for Odisha.",resources_intro:"Always prioritize instructions and alerts issued by government authorities.",imd_desc:"Forecasts and cyclone warnings",osdma_desc:"Odisha disaster management",sachet_desc:"Official disaster alerts",ndrf_desc:"National disaster response",incois_desc:"Ocean information and warnings",src_desc:"State relief and response",
+    ai_kicker:"YOUR CYCLONE KNOWLEDGE COMPANION",ai_title:"Have a question? Ask Mitra.",ai_text:"Our AI-powered cyclone assistant is planned for the next build stage, with support for English, Hindi and Odia.",coming_soon:"COMING NEXT",footer_note:"Awareness and preparedness platform. In an emergency, follow official government instructions."
+  },
+  hi: {
+    topline:"तैयारी चेतावनी आने से पहले शुरू होती है।",nav_prepare:"तैयारी",nav_radar:"रडार और अलर्ट",nav_help:"आपातकालीन सहायता",nav_resources:"संसाधन",
+    eyebrow:"ओडिशा चक्रवात तैयारी मंच",hero_title:"जब तूफान करीब आए,<br><em>जानकारी जीवन बचाती है।</em>",hero_text:"चक्रवात के जोखिम समझें, अपने परिवार को तैयार करें और चक्रवात से पहले, दौरान और बाद में सही कदम जानें।",hero_cta:"सुरक्षा गाइड देखें",hero_secondary:"आपातकालीन संपर्क",trust:"ओडिशा के समुदायों के लिए • अंग्रेज़ी, हिंदी और ओड़िया",
+    quick1:"परिवार को तैयार करें",quick1sub:"तैयारी की आसान सूची",quick2:"आधिकारिक अपडेट देखें",quick2sub:"मौसम और चेतावनी स्रोत",quick3:"तुरंत सहायता चाहिए?",quick3sub:"आपातकालीन नंबर और मार्गदर्शन",
+    kicker1:"चक्रवात से पहले",prep_title:"आज की तैयारी, कल की सुरक्षा।",prep_intro:"कुछ आसान कदम जोखिम कम कर सकते हैं। स्थानीय प्रशासन के निर्देश मानें और अधिकारियों की सलाह पर सुरक्षित स्थान पर जाएँ।",
+    card1title:"अपने घर को सुरक्षित करें",card1text:"बाहर रखी ढीली वस्तुओं को अंदर रखें। दरवाजे और खिड़कियाँ सुरक्षित करें। टूटे बिजली के तारों से दूर रहें।",card2title:"आपातकालीन किट तैयार करें",card2text:"पीने का पानी, सूखा भोजन, दवाइयाँ, टॉर्च, बैटरी, प्राथमिक उपचार और जरूरी दस्तावेजों की प्रतियाँ रखें।",card3title:"निकासी की योजना बनाएँ",card3text:"अपने नजदीकी निर्धारित चक्रवात आश्रय को जानें और वहाँ पहुँचने की योजना बनाएँ।",tag_before:"पहले",tag_ready:"तैयार रहें",tag_plan:"योजना बनाएँ",
+    kicker2:"मौसम की जानकारी",radar_title:"जानकारी रखें।<br><em>समय पर कदम उठाएँ।</em>",radar_text:"चक्रवात की दिशा, बारिश, हवा और तटीय चेतावनियों के लिए आधिकारिक मौसम अपडेट देखें। इस शुरुआती संस्करण में विश्वसनीय स्रोतों के लिंक हैं; लाइव मानचित्र अगला विकास चरण है।",imd_button:"आधिकारिक IMD अपडेट खोलें",official_sources:"आधिकारिक मौसम स्रोत",external_link:"बाहरी लिंक",radar_placeholder:"लाइव रडार अगला चरण है",radar_note:"इस डेमो में तूफान की लाइव स्थिति नहीं दिखाई जाती।",
+    kicker3:"जरूरत के समय सहायता",help_title:"आपातकालीन सहायता पास में।",help_intro:"यदि आप तत्काल खतरे में हैं, तो संभव हो तो सुरक्षित स्थान पर जाएँ और उचित आपातकालीन सेवा से संपर्क करें।",national_emergency:"भारत • राष्ट्रीय आपातकाल",emergency_desc:"आपातकालीन सहायता के लिए कॉल करें। स्थानीय निकासी आदेशों का पालन करना भी जरूरी है।",call_now:"112 पर कॉल करें",verify_note:"आपातकालीन सेवाएँ स्थान के अनुसार अलग हो सकती हैं। स्थानीय संपर्क आधिकारिक ओडिशा सरकारी स्रोतों से सत्यापित करें।",
+    kicker4:"विश्वसनीय जानकारी",resources_title:"ओडिशा के आधिकारिक संसाधन।",resources_intro:"सरकारी अधिकारियों द्वारा जारी निर्देशों और चेतावनियों को प्राथमिकता दें।",imd_desc:"मौसम पूर्वानुमान और चक्रवात चेतावनी",osdma_desc:"ओडिशा आपदा प्रबंधन",sachet_desc:"आधिकारिक आपदा अलर्ट",ndrf_desc:"राष्ट्रीय आपदा प्रतिक्रिया",incois_desc:"समुद्र संबंधी जानकारी और चेतावनी",src_desc:"राज्य राहत और प्रतिक्रिया",
+    ai_kicker:"आपका चक्रवात ज्ञान साथी",ai_title:"कोई सवाल है? मित्र से पूछें।",ai_text:"अगले चरण में अंग्रेज़ी, हिंदी और ओड़िया समर्थन वाला AI चक्रवात सहायक जोड़ा जाएगा।",coming_soon:"जल्द आ रहा है",footer_note:"जागरूकता और तैयारी मंच। आपातकाल में सरकारी निर्देशों का पालन करें।"
+  },
+  or: {
+    topline:"ସତର୍କ ସୂଚନା ପୂର୍ବରୁ ପ୍ରସ୍ତୁତି ଆରମ୍ଭ ହୁଏ।",nav_prepare:"ପ୍ରସ୍ତୁତି",nav_radar:"ରାଡାର୍ ଓ ସତର୍କ ସୂଚନା",nav_help:"ଜରୁରୀ ସହାୟତା",nav_resources:"ସମ୍ବଳ",
+    eyebrow:"ଓଡ଼ିଶା ବାତ୍ୟା ପ୍ରସ୍ତୁତି ମଞ୍ଚ",hero_title:"ବାତ୍ୟା ଆସିବା ପୂର୍ବରୁ,<br><em>ସଚେତନତା ଜୀବନ ବଞ୍ଚାଏ।</em>",hero_text:"ବାତ୍ୟାର ବିପଦ ବୁଝନ୍ତୁ, ପରିବାରକୁ ପ୍ରସ୍ତୁତ କରନ୍ତୁ ଏବଂ ବାତ୍ୟା ପୂର୍ବରୁ, ସମୟରେ ଓ ପରେ କଣ କରିବେ ଜାଣନ୍ତୁ।",hero_cta:"ସୁରକ୍ଷା ମାର୍ଗଦର୍ଶିକା",hero_secondary:"ଜରୁରୀ ଯୋଗାଯୋଗ",trust:"ଓଡ଼ିଶାର ସମସ୍ତ ସମ୍ପ୍ରଦାୟ ପାଇଁ • ଇଂରାଜୀ, ହିନ୍ଦୀ ଓ ଓଡ଼ିଆ",
+    quick1:"ପରିବାରକୁ ପ୍ରସ୍ତୁତ କରନ୍ତୁ",quick1sub:"ସହଜ ପ୍ରସ୍ତୁତି ତାଲିକା",quick2:"ସରକାରୀ ସୂଚନା ଦେଖନ୍ତୁ",quick2sub:"ପାଣିପାଗ ଓ ସତର୍କ ସୂଚନା",quick3:"ତୁରନ୍ତ ସହାୟତା ଦରକାର?",quick3sub:"ଜରୁରୀ ନମ୍ବର ଓ ମାର୍ଗଦର୍ଶନ",
+    kicker1:"ବାତ୍ୟା ପୂର୍ବରୁ",prep_title:"ଆଜିର ପ୍ରସ୍ତୁତି, ଆସନ୍ତାକାଲିର ସୁରକ୍ଷା।",prep_intro:"କିଛି ସରଳ ପଦକ୍ଷେପ ବିପଦ କମାଇପାରେ। ସ୍ଥାନୀୟ ପ୍ରଶାସନର ନିର୍ଦ୍ଦେଶ ମାନନ୍ତୁ ଏବଂ କର୍ତ୍ତୃପକ୍ଷଙ୍କ ପରାମର୍ଶରେ ସୁରକ୍ଷିତ ସ୍ଥାନକୁ ଯାଆନ୍ତୁ।",
+    card1title:"ଘରକୁ ସୁରକ୍ଷିତ କରନ୍ତୁ",card1text:"ବାହାରେ ଥିବା ଢିଲା ଜିନିଷ ଭିତରକୁ ଆଣନ୍ତୁ। କବାଟ ଓ ଝରକା ସୁରକ୍ଷିତ କରନ୍ତୁ। ଛିଣ୍ଡିଥିବା ବିଦ୍ୟୁତ୍ ତାରଠାରୁ ଦୂରେଇ ରୁହନ୍ତୁ।",card2title:"ଜରୁରୀକାଳୀନ କିଟ୍ ପ୍ରସ୍ତୁତ କରନ୍ତୁ",card2text:"ପିଇବା ପାଣି, ଶୁଖିଲା ଖାଦ୍ୟ, ଔଷଧ, ଟର୍ଚ୍ଚ, ବ୍ୟାଟେରୀ, ପ୍ରାଥମିକ ଚିକିତ୍ସା ଓ ଜରୁରୀ କାଗଜପତ୍ରର ନକଲ ରଖନ୍ତୁ।",card3title:"ସ୍ଥାନାନ୍ତର ଯୋଜନା କରନ୍ତୁ",card3text:"ନିକଟସ୍ଥ ନିର୍ଦ୍ଧାରିତ ବାତ୍ୟା ଆଶ୍ରୟସ୍ଥଳୀ ଜାଣନ୍ତୁ ଏବଂ ସେଠାକୁ ଯିବାର ଯୋଜନା କରନ୍ତୁ।",tag_before:"ପୂର୍ବରୁ",tag_ready:"ପ୍ରସ୍ତୁତ ରୁହନ୍ତୁ",tag_plan:"ଯୋଜନା କରନ୍ତୁ",
+    kicker2:"ପାଣିପାଗ ସଚେତନତା",radar_title:"ସୂଚନା ରଖନ୍ତୁ।<br><em>ଶୀଘ୍ର ପଦକ୍ଷେପ ନିଅନ୍ତୁ।</em>",radar_text:"ବାତ୍ୟାର ଗତିପଥ, ବର୍ଷା, ପବନ ଓ ଉପକୂଳ ସତର୍କ ସୂଚନା ପାଇଁ ସରକାରୀ ପାଣିପାଗ ଅପଡେଟ୍ ଦେଖନ୍ତୁ। ଏହି ପ୍ରାରମ୍ଭିକ ସଂସ୍କରଣରେ ବିଶ୍ୱସନୀୟ ସୂତ୍ରର ଲିଙ୍କ ରହିଛି; ଲାଇଭ୍ ମାନଚିତ୍ର ପରବର୍ତ୍ତୀ ପର୍ଯ୍ୟାୟ।",imd_button:"ସରକାରୀ IMD ସୂଚନା ଖୋଲନ୍ତୁ",official_sources:"ସରକାରୀ ପାଣିପାଗ ସୂତ୍ର",external_link:"ବାହ୍ୟ ଲିଙ୍କ",radar_placeholder:"ଲାଇଭ୍ ରାଡାର୍ ପରବର୍ତ୍ତୀ ପର୍ଯ୍ୟାୟରେ",radar_note:"ଏହି ଡେମୋରେ ବାତ୍ୟାର ଲାଇଭ୍ ସ୍ଥିତି ଦେଖାଯାଉନାହିଁ।",
+    kicker3:"ଜରୁରୀ ସମୟରେ ସହାୟତା",help_title:"ଜରୁରୀ ସହାୟତା ଆପଣଙ୍କ ପାଖରେ।",help_intro:"ଯଦି ଆପଣ ତୁରନ୍ତ ବିପଦରେ ଅଛନ୍ତି, ସମ୍ଭବ ହେଲେ ସୁରକ୍ଷିତ ସ୍ଥାନକୁ ଯାଆନ୍ତୁ ଏବଂ ଉପଯୁକ୍ତ ଜରୁରୀ ସେବା ସହ ଯୋଗାଯୋଗ କରନ୍ତୁ।",national_emergency:"ଭାରତ • ଜାତୀୟ ଜରୁରୀକାଳୀନ ସେବା",emergency_desc:"ଜରୁରୀ ସହାୟତା ପାଇଁ କଲ୍ କରନ୍ତୁ। ସ୍ଥାନୀୟ ସ୍ଥାନାନ୍ତର ନିର୍ଦ୍ଦେଶ ମଧ୍ୟ ମାନନ୍ତୁ।",call_now:"112 କୁ କଲ୍ କରନ୍ତୁ",verify_note:"ଜରୁରୀ ସେବା ସ୍ଥାନ ଅନୁସାରେ ଭିନ୍ନ ହୋଇପାରେ। ଓଡ଼ିଶା ସରକାରଙ୍କ ସରକାରୀ ସୂତ୍ରରୁ ସ୍ଥାନୀୟ ଯୋଗାଯୋଗ ଯାଞ୍ଚ କରନ୍ତୁ।",
+    kicker4:"ବିଶ୍ୱସନୀୟ ସୂଚନା",resources_title:"ଓଡ଼ିଶା ପାଇଁ ସରକାରୀ ସମ୍ବଳ।",resources_intro:"ସର୍ବଦା ସରକାରୀ କର୍ତ୍ତୃପକ୍ଷଙ୍କ ନିର୍ଦ୍ଦେଶ ଓ ସତର୍କ ସୂଚନାକୁ ପ୍ରାଥମିକତା ଦିଅନ୍ତୁ।",imd_desc:"ପାଣିପାଗ ପୂର୍ବାନୁମାନ ଓ ବାତ୍ୟା ସତର୍କ ସୂଚନା",osdma_desc:"ଓଡ଼ିଶା ବିପର୍ଯ୍ୟୟ ପରିଚାଳନା",sachet_desc:"ସରକାରୀ ବିପର୍ଯ୍ୟୟ ସତର୍କ ସୂଚନା",ndrf_desc:"ଜାତୀୟ ବିପର୍ଯ୍ୟୟ ପ୍ରତିକ୍ରିୟା",incois_desc:"ସମୁଦ୍ର ସୂଚନା ଓ ସତର୍କ ସୂଚନା",src_desc:"ରାଜ୍ୟ ରିଲିଫ୍ ଓ ପ୍ରତିକ୍ରିୟା",
+    ai_kicker:"ଆପଣଙ୍କ ବାତ୍ୟା ଜ୍ଞାନ ସାଥୀ",ai_title:"ପ୍ରଶ୍ନ ଅଛି? ମିତ୍ରଙ୍କୁ ପଚାରନ୍ତୁ।",ai_text:"ପରବର୍ତ୍ତୀ ପର୍ଯ୍ୟାୟରେ ଇଂରାଜୀ, ହିନ୍ଦୀ ଓ ଓଡ଼ିଆ ସମର୍ଥନ ସହ AI ବାତ୍ୟା ସହାୟକ ଯୋଡ଼ାଯିବ।",coming_soon:"ଶୀଘ୍ର ଆସୁଛି",footer_note:"ସଚେତନତା ଓ ପ୍ରସ୍ତୁତି ମଞ୍ଚ। ଜରୁରୀ ସମୟରେ ସରକାରୀ ନିର୍ଦ୍ଦେଶ ମାନନ୍ତୁ।"
+  }
+};
+
+const languageSelect = document.getElementById("languageSelect");
+function setLanguage(lang) {
+  const dict = translations[lang] || translations.en;
+  document.documentElement.lang = lang === "or" ? "or" : lang;
+  document.querySelectorAll("[data-i18n]").forEach((element) => {
+    const key = element.dataset.i18n;
+    if (dict[key]) element.innerHTML = dict[key];
+  });
+  languageSelect.value = lang;
+  try { localStorage.setItem("cycloneMitraLanguage", lang); } catch (_) {}
+}
+languageSelect.addEventListener("change", (event) => setLanguage(event.target.value));
+let savedLanguage = "en";
+try { savedLanguage = localStorage.getItem("cycloneMitraLanguage") || "en"; } catch (_) {}
+setLanguage(savedLanguage);

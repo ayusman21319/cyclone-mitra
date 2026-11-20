@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Cyclone Mitra - multilingual cyclone preparedness and awareness for Odisha.">
+  <title>Cyclone Mitra | Powered by Nexora Team</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+  <div class="topline">
+    <span class="pulse"></span>
+    <span data-i18n="topline">Preparedness starts before the warning.</span>
+    <span class="topline-right">ODISHA • INDIA</span>
+  </div>
+
+  <header class="navbar">
+    <a class="brand" href="#home" aria-label="Cyclone Mitra home">
+      <span class="brand-mark">CM</span>
+      <span><strong>Cyclone Mitra</strong><small>POWERED BY NEXORA TEAM</small></span>
+    </a>
+    <nav class="navlinks">
+      <a href="#preparedness" data-i18n="nav_prepare">Preparedness</a>
+      <a href="#radar" data-i18n="nav_radar">Radar & Alerts</a>
+      <a href="#help" data-i18n="nav_help">Emergency Help</a>
+      <a href="#resources" data-i18n="nav_resources">Resources</a>
+    </nav>
+    <label class="language">
+      <span class="sr-only">Choose language</span>
+      <select id="languageSelect" aria-label="Choose language">
+        <option value="en">English</option>
+        <option value="hi">हिन्दी</option>
+        <option value="or">ଓଡ଼ିଆ</option>
+      </select>
+    </label>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="eyebrow-dot"></span><span data-i18n="eyebrow">ODISHA CYCLONE READINESS PLATFORM</span></div>
+        <h1 data-i18n="hero_title">When the storm approaches,<br><em>knowledge saves lives.</em></h1>
+        <p class="hero-text" data-i18n="hero_text">Understand cyclone risks, prepare your family, find trusted alerts and know what to do — before, during and after a cyclone.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#preparedness" data-i18n="hero_cta">Explore safety guide <span>↗</span></a>
+          <a class="btn btn-quiet" href="#help" data-i18n="hero_secondary">Emergency contacts</a>
+        </div>
+        <div class="trust-line"><span>✓</span><span data-i18n="trust">Built for communities across Odisha • English, Hindi & Odia</span></div>
+      </div>
+      <div class="hero-visual">
+        <div class="storm-orbit orbit-one"></div><div class="storm-orbit orbit-two"></div>
+        <div class="storm-core"><span class="storm-eye"></span></div>
+        <div class="visual-label label-top"><span class="mini-dot"></span> CYCLONE AWARENESS</div>
+        <div class="visual-label label-bottom"><strong>BE READY</strong><small>Every family. Every coastline.</small></div>
+        <div class="coordinate">20.2961° N&nbsp;&nbsp; 85.8245° E</div>
+      </div>
+    </section>
+
+    <section class="quick-strip" aria-label="Quick actions">
+      <a href="#preparedness"><span class="quick-icon">✓</span><span><strong data-i18n="quick1">Prepare your family</strong><small data-i18n="quick1sub">Simple readiness checklist</small></span><b>↗</b></a>
+      <a href="#radar"><span class="quick-icon">◎</span><span><strong data-i18n="quick2">Check official updates</strong><small data-i18n="quick2sub">Weather and warning sources</small></span><b>↗</b></a>
+      <a href="#help"><span class="quick-icon quick-red">!</span><span><strong data-i18n="quick3">Need urgent help?</strong><small data-i18n="quick3sub">Emergency number and guidance</small></span><b>↗</b></a>
+    </section>
+
+    <section class="section" id="preparedness">
+      <div class="section-heading">
+        <div><div class="section-kicker" data-i18n="kicker1">BEFORE THE CYCLONE</div><h2 data-i18n="prep_title">Prepared today. Safer tomorrow.</h2></div>
+        <p data-i18n="prep_intro">A few practical steps can reduce risk. Follow local administration instructions and evacuate when authorities advise.</p>
+      </div>
+      <div class="prep-grid">
+        <article class="info-card"><div class="card-number">01</div><div class="card-icon">⌂</div><h3 data-i18n="card1title">Secure your home</h3><p data-i18n="card1text">Bring loose outdoor items inside. Keep doors and windows secured. Stay away from damaged electrical lines.</p><span class="card-tag" data-i18n="tag_before">BEFORE</span></article>
+        <article class="info-card"><div class="card-number">02</div><div class="card-icon">▣</div><h3 data-i18n="card2title">Build an emergency kit</h3><p data-i18n="card2text">Keep drinking water, dry food, medicines, a torch, batteries, first aid and copies of important documents.</p><span class="card-tag" data-i18n="tag_ready">GET READY</span></article>
+        <article class="info-card"><div class="card-number">03</div><div class="card-icon">⇧</div><h3 data-i18n="card3title">Plan your evacuation</h3><p data-i18n="card3text">Know your nearest designated cyclone shelter and plan how your family will reach it safely.</p><span class="card-tag" data-i18n="tag_plan">MAKE A PLAN</span></article>
+      </div>
+    </section>
+
+    <section class="radar-section" id="radar">
+      <div class="radar-copy">
+        <div class="section-kicker light-kicker" data-i18n="kicker2">WEATHER AWARENESS</div>
+        <h2 data-i18n="radar_title">Stay informed.<br><em>Act early.</em></h2>
+        <p data-i18n="radar_text">Use official meteorological updates for cyclone track, rainfall, wind and coastal warnings. This starter version links to trusted sources; live map integration is the next development step.</p>
+        <a class="btn btn-light" href="https://mausam.imd.gov.in/" target="_blank" rel="noopener noreferrer"><span data-i18n="imd_button">Open official IMD updates</span> ↗</a>
+      </div>
+      <div class="radar-panel">
+        <div class="radar-panel-head"><span><i class="live-dot"></i><span data-i18n="official_sources">OFFICIAL WEATHER SOURCES</span></span><span class="source-pill" data-i18n="external_link">EXTERNAL LINK</span></div>
+        <div class="radar-placeholder">
+          <div class="radar-rings"><span></span><span></span><span></span><b>+</b></div>
+          <div class="radar-note"><strong data-i18n="radar_placeholder">Live radar integration coming next</strong><small data-i18n="radar_note">No live storm position is displayed in this demo.</small></div>
+        </div>
+        <div class="source-links">
+          <a href="https://mausam.imd.gov.in/" target="_blank" rel="noopener noreferrer">IMD <span>↗</span></a>
+          <a href="https://sachet.ndma.gov.in/" target="_blank" rel="noopener noreferrer">SACHET <span>↗</span></a>
+          <a href="https://www.osdma.org/" target="_blank" rel="noopener noreferrer">OSDMA <span>↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section help-section" id="help">
+      <div class="section-heading">
+        <div><div class="section-kicker" data-i18n="kicker3">HELP WHEN IT MATTERS</div><h2 data-i18n="help_title">Emergency help, within reach.</h2></div>
+        <p data-i18n="help_intro">If you are in immediate danger, move to a safer place if possible and contact the appropriate emergency service.</p>
+      </div>
+      <div class="emergency-card">
+        <div><span class="emergency-label" data-i18n="national_emergency">INDIA • NATIONAL EMERGENCY</span><h3>112</h3><p data-i18n="emergency_desc">Call for emergency assistance. This is not a substitute for local evacuation orders.</p></div>
+        <a class="call-button" href="tel:112"><span>☎</span><span data-i18n="call_now">Call 112</span></a>
+      </div>
+      <p class="small-note" data-i18n="verify_note">Emergency contacts and services can vary by location. Verify local district contacts through official Odisha government sources.</p>
+    </section>
+
+    <section class="section resources-section" id="resources">
+      <div class="section-heading">
+        <div><div class="section-kicker" data-i18n="kicker4">TRUSTED INFORMATION</div><h2 data-i18n="resources_title">Official resources for Odisha.</h2></div>
+        <p data-i18n="resources_intro">Always prioritize instructions and alerts issued by government authorities.</p>
+      </div>
+      <div class="resource-grid">
+        <a class="resource-card" href="https://mausam.imd.gov.in/" target="_blank" rel="noopener noreferrer"><span class="resource-symbol">◉</span><span><strong>India Meteorological Department</strong><small data-i18n="imd_desc">Forecasts and cyclone warnings</small></span><b>↗</b></a>
+        <a class="resource-card" href="https://www.osdma.org/" target="_blank" rel="noopener noreferrer"><span class="resource-symbol">⌂</span><span><strong>OSDMA</strong><small data-i18n="osdma_desc">Odisha disaster management</small></span><b>↗</b></a>
+        <a class="resource-card" href="https://sachet.ndma.gov.in/" target="_blank" rel="noopener noreferrer"><span class="resource-symbol">⚑</span><span><strong>NDMA SACHET</strong><small data-i18n="sachet_desc">Official disaster alerts</small></span><b>↗</b></a>
+        <a class="resource-card" href="https://ndrf.gov.in/" target="_blank" rel="noopener noreferrer"><span class="resource-symbol">✚</span><span><strong>NDRF</strong><small data-i18n="ndrf_desc">National disaster response</small></span><b>↗</b></a>
+        <a class="resource-card" href="https://incois.gov.in/" target="_blank" rel="noopener noreferrer"><span class="resource-symbol">≈</span><span><strong>INCOIS</strong><small data-i18n="incois_desc">Ocean information and warnings</small></span><b>↗</b></a>
+        <a class="resource-card" href="https://srcodisha.nic.in/" target="_blank" rel="noopener noreferrer"><span class="resource-symbol">⌖</span><span><strong>Odisha SRC</strong><small data-i18n="src_desc">State relief and response</small></span><b>↗</b></a>
+      </div>
+    </section>
+
+    <section class="ai-banner">
+      <div class="ai-orb">✳</div>
+      <div><div class="section-kicker light-kicker" data-i18n="ai_kicker">YOUR CYCLONE KNOWLEDGE COMPANION</div><h2 data-i18n="ai_title">Have a question? Ask Mitra.</h2><p data-i18n="ai_text">Our AI-powered cyclone assistant is planned for the next build stage, with support for English, Hindi and Odia.</p></div>
+      <span class="coming-soon" data-i18n="coming_soon">COMING NEXT</span>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand footer-brand" href="#home"><span class="brand-mark">CM</span><span><strong>Cyclone Mitra</strong><small>POWERED BY NEXORA TEAM</small></span></a>
+    <p data-i18n="footer_note">Awareness and preparedness platform. In an emergency, follow official government instructions.</p>
+    <span>© 2026 Nexora Team</span>
+  </footer>
+  <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>
